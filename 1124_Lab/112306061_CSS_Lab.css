@@ -1,0 +1,40 @@
+/* External CSS file (112306061_CSS_Lab.css) */
+
+body {
+    color: #1A5276;
+    background-color:skyblue  ;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    top: 1em;
+    left: 38em;
+    width: 20em;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+}
+
+ul.navbar {
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 20em;
+}
+
+/* Media Query for all devices */
+@media all {
+    body {
+        font-size: 16px; /* Adjust the font size for all devices */
+    }
+}
+
+/* Media Query for print */
+@media print {
+    body {
+        color: #000; /* Adjust text color for printing */
+    }
+
+    ul.navbar {
+        display: none; /* Hide the navigation bar when printing */
+    }
+}
